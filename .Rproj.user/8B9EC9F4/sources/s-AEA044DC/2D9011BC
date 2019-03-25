@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1553551910718.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2D9011BC",
+    "lastKnownWriteTime" : 1553552192,
+    "last_content_update" : 1553552192132,
+    "path" : "C:/Users/claud/Dropbox/NFE_AL/NFeALData/R/consulta_barcode.R",
+    "project_path" : "R/consulta_barcode.R",
+    "properties" : {
+        "cursorPosition" : "32,12",
+        "scrollLine" : "22",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

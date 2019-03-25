@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1553550766905.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "24188BD7",
+    "lastKnownWriteTime" : 1553552028,
+    "last_content_update" : 1553552028942,
+    "path" : "C:/Users/claud/Dropbox/NFE_AL/NFeALData/R/consulta_descr.R",
+    "project_path" : "R/consulta_descr.R",
+    "properties" : {
+        "cursorPosition" : "30,0",
+        "scrollLine" : "16",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

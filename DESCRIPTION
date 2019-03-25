@@ -1,0 +1,17 @@
+Package: NFeALData
+Type: Package
+Title: Pacote para Interface com o API da Nfe do Estado de Alagoas
+Version: 0.1.0
+Author: Claudio Ribeiro de Lucinda
+Maintainer: Claudio Lucinda <claudiolucinda@usp.br>
+Description: Conjunto de rotinas para fazer interface com a API da Nfe do Estado de Alagoas.
+    O Objetivo é permitir que pesquisadores tenham a oportunidade de trabalhar com essas informacoes.
+License: BSD-2
+Encoding: UTF-8
+LazyData: true
+Imports: jsonlite,
+    rjson,
+    purrr,
+    dplyr,
+    httr
+RoxygenNote: 6.0.1.9000
