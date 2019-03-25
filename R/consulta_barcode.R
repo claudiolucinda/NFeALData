@@ -1,4 +1,4 @@
-#' Title
+#' Consulta Preco de Mercadoria por Codigo de Barras
 #'
 #' @param apikey - Chave do API, obtida mediante pedido a api [at] sefaz.al.gov.br
 #' @param barCode - String com o codigo de barras
