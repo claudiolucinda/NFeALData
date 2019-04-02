@@ -1,5 +1,5 @@
 # NFeALData
-Codes for accessing API for Alagoas State (Nota Fiscal Eletronica). There are the following functions:
+Codes for accessing API for Alagoas State (Nota Fiscal Eletronica *Cidadã*). There are the following functions:
 
 - *consulta_descr* -- Funcao para Obter os precos de mercadoria por descricao
 - *consulta_min_preco* -- Consulta o menor preco em um determinado estabelecimento por codigo de barras
@@ -8,4 +8,4 @@ Codes for accessing API for Alagoas State (Nota Fiscal Eletronica). There are th
 
 Para usar no R, é só usar o pacote `devtools`, e o comando `install_github` da seguinte forma:
 
-- `devtools::install_github("install_github")`
+- `devtools::install_github("claudiolucinda/NFeALData")`

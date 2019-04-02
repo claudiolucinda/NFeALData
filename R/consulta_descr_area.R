@@ -4,8 +4,6 @@
 #' @param query - String com a query
 #' @param .lattice - Matrix (2 X N) com a coordenada de N pontos cujos circulos cubram a area interessada. Longitude na coluna 1 e latitude na coluna 2
 #' @param .dias - Numero de dias. Caso não fornecido, e apenas um dia
-#' @param .latitude - Latitude do centro do circulo onde a query vai investigar (formato Lat-Lon, nao eh UTM nem outros formatos). Existe um default, mas nao eh relevante.
-#' @param .longitude - Lognitude do centro do circulo onde a query vai investigar (formato Lat-Lon, nao eh UTM nem outros formatos). Existe um default, mas nao eh relevante.
 #' @param .raio - Raio do circulo. Default eh 15 kms
 #'
 #' @return - Retorna um dataframe com os seguintes objetos:
@@ -32,7 +30,7 @@
 #' @export
 #'
 #' @examples
-consulta_descr_area <- function(apikey,query,.lattice,.dias=1,.latitude=-9.6432331,.longitude=-35.7190686,.raio=15) {
+consulta_descr_area <- function(apikey,query,.lattice,.dias=1,.raio=15) {
   datalist<-list()
 
   for (i in 1:nrow(.lattice)) {
