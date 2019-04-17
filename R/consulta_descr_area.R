@@ -37,7 +37,7 @@ consulta_descr_area <- function(apikey,query,.lattice,.dias=1,.raio=15) {
     lat<-.lattice[i,2]
     lon<-.lattice[i,1]
     teste<-consulta_descr(apikey=apikey,query=query,.dias=.dias,.latitude = lat,.longitude = lon, .raio=.raio)
-    if ((teste=="") || (length(teste)==0)) {
+    if ((teste=="") || (length(teste)==0) || is.null(teste)) {
       next
     }
     else {
